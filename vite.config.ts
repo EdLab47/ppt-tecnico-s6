@@ -4,9 +4,8 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, '.', '');
-  
   return {
-    base: './', // OBLIGATORIO: Permite rutas relativas para GitHub Pages
+    base: './', // 👈 AGREGA ESTA LÍNEA (OBLIGATORIO)
     server: {
       port: 3000,
       host: '0.0.0.0',
@@ -20,6 +19,6 @@ export default defineConfig(({ mode }) => {
       alias: {
         '@': path.resolve(__dirname, '.'),
       }
-    },
+    }
   };
 });

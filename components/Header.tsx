@@ -12,11 +12,11 @@ const Header: React.FC = () => {
       </div>
 
       <div className="relative z-10">
-        <h1 className="text-3xl md:text-4xl font-bold mb-3 tracking-tight">
-          📢 Reto de Aplicación: Reconstrucción de Historia Técnica
+        <h1 className="text-3xl md:text-5xl font-bold mb-4 tracking-tight">
+          🚀 Misión: Rescatando el Pulso de la Ciudad
         </h1>
         <p className="text-lg md:text-xl font-light opacity-90">
-          El Pulso de la Ciudad - Silicio y Supervivencia
+          Conectando evidencias: Imágenes e Historia
         </p>
       </div>
     </header>
